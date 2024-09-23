@@ -1,0 +1,68 @@
+h1 {
+    color: black;
+}
+
+h2 {
+    color: black(0, 0, 0);
+}
+
+ol li {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-size: 20px;
+}
+
+ol li:nth-child(1) {
+    color: red;
+}
+
+ol li:nth-child(3) {
+    color: green;
+}
+
+ol li:nth-child(4) {
+    color: rgb(0, 67, 250);
+}
+
+ol {
+    list-style-position: inside;
+    text-align: center;
+}
+
+li {
+    color: blue;
+
+}
+
+.firt-class {
+    color: red;
+}
+
+li [value="4"] {
+    color: purple;
+}
+
+#first-id {
+    color: orange;
+    font-size: xx-large;
+}
+
+li {
+    color: red;
+    color: green !important;
+    color: white
+}
+
+.div-container {
+    background-color: rgb(106, 106, 158);
+    padding: 10px;
+    margin: auto;
+
+}
+
+#id-div {
+    margin: 10px;
+    padding: 10px;
+    border: 2pt solid pink;
+    border-width: 20;
+    margin-left: 50;
+}
